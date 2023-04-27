@@ -1,0 +1,113 @@
+* {
+  max-width: 1920px;
+  width: 100%;
+}
+.backg-img1 {
+  background: transparent url("pics/Path\ 15.jpg") 0% 0% no-repeat padding-box;
+  max-width: 1920px;
+  /* border: 2px solid red; */
+  min-height: 705px;
+  width: 100%;
+  background-size: 100% 100%;
+  text-align: center;
+  /* position: relative; */
+}
+main {
+  /* background: transparent url("pics/Path\ 15.jpg") 0% 0% no-repeat padding-box; */
+  max-width: 1920px;
+  width: auto;
+  max-height: 705px;
+}
+h1 {
+  font-size: 83px;
+  color: white;
+  padding-top: 202px;
+}
+p {
+  font-size: 22px;
+  color: white;
+  padding-top: 30px;
+}
+/* .form-group {
+  display: inline-block;
+} */
+.form-control1 {
+  direction: rtl;
+  /* border: solid 2px red; */
+  display: flex;
+  justify-content: center;
+}
+#inputtext,
+#inputEmail4 {
+  background-color: rgba(225, 225, 225, 0.349);
+  border: none;
+  border-bottom: 8px solid #0f5380;
+  /* max-width: 417px; */
+  width: 100%;
+}
+.container11 {
+  margin-top: 70px;
+}
+.btn11 {
+  background-color: #0f5380;
+}
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 70px;
+    color: white;
+    padding-top: 202px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  p {
+    font-size: 20px;
+    color: white;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #inputtext,
+  #inputEmail4 {
+    max-width: 150px;
+  }
+  .btn11 {
+    max-width: 150px;
+    margin-top: 25px !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  #inputtext,
+  #inputEmail4 {
+    max-width: 320px;
+  }
+  .form-control1 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 40px;
+    color: white;
+    padding-top: 180px;
+    padding-left: 15px;
+    padding-left: 15px;
+  }
+  p {
+    font-size: 15px;
+    color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .form-control,
+  .label-dis {
+    display: inline-block !important;
+    width: auto;
+  }
+}
